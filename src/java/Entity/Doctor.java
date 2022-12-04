@@ -3,12 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Entity;
+package entity;
 
 /**
  *
- * @author congh
+ * @author phuon
  */
-public class NewClass {
+public class Doctor {
     
 }
