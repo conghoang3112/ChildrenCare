@@ -5,33 +5,35 @@
  */
 package entity;
 
+import java.util.Date;
+
 /**
  *
  * @author Admin
  */
-public class User {
+public class DoctorProfile {
 
     private int id;
-    private Account account;
+    private Doctor doctor;
     private String firstName;
     private String lastName;
-    private String phone;
-    private String address;
+    private Date dob;
     private String avatar;
     private boolean sex;
+    private String addressHospital;
 
-    public User() {
+    public DoctorProfile() {
     }
 
-    public User(int id, Account account, String firstName, String lastName, String phone, String address, String avatar, boolean sex) {
+    public DoctorProfile(int id, Doctor doctor, String firstName, String lastName, Date dob, String avatar, boolean sex, String addressHospital) {
         this.id = id;
-        this.account = account;
+        this.doctor = doctor;
         this.firstName = firstName;
         this.lastName = lastName;
-        this.phone = phone;
-        this.address = address;
+        this.dob = dob;
         this.avatar = avatar;
         this.sex = sex;
+        this.addressHospital = addressHospital;
     }
 
     public int getId() {
@@ -42,12 +44,12 @@ public class User {
         this.id = id;
     }
 
-    public Account getAccount() {
-        return account;
+    public Doctor getDoctor() {
+        return doctor;
     }
 
-    public void setAccount(Account account) {
-        this.account = account;
+    public void setDoctor(Doctor doctor) {
+        this.doctor = doctor;
     }
 
     public String getFirstName() {
@@ -66,20 +68,12 @@ public class User {
         this.lastName = lastName;
     }
 
-    public String getPhone() {
-        return phone;
+    public Date getDob() {
+        return dob;
     }
 
-    public void setPhone(String phone) {
-        this.phone = phone;
-    }
-
-    public String getAddress() {
-        return address;
-    }
-
-    public void setAddress(String address) {
-        this.address = address;
+    public void setDob(Date dob) {
+        this.dob = dob;
     }
 
     public String getAvatar() {
@@ -96,6 +90,14 @@ public class User {
 
     public void setSex(boolean sex) {
         this.sex = sex;
+    }
+
+    public String getAddressHospital() {
+        return addressHospital;
+    }
+
+    public void setAddressHospital(String addressHospital) {
+        this.addressHospital = addressHospital;
     }
 
 }

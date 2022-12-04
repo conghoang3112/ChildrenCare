@@ -9,17 +9,17 @@ package entity;
  *
  * @author Admin
  */
-public class Specialist {
+public class TimeSlot {
 
     private int id;
-    private String name;
+    private String slotTime;
 
-    public Specialist() {
+    public TimeSlot() {
     }
 
-    public Specialist(int id, String name) {
+    public TimeSlot(int id, String slotTime) {
         this.id = id;
-        this.name = name;
+        this.slotTime = slotTime;
     }
 
     public int getId() {
@@ -30,13 +30,12 @@ public class Specialist {
         this.id = id;
     }
 
-    public String getName() {
-        return name;
+    public String getSlotTime() {
+        return slotTime;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setSlotTime(String slotTime) {
+        this.slotTime = slotTime;
     }
-
 
 }

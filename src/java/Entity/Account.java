@@ -7,7 +7,7 @@ package entity;
 
 /**
  *
- * @author phuon
+ * @author Admin
  */
 public class Account {
 
