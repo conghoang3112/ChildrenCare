@@ -49,6 +49,7 @@ public final class Login_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("    <link href=\"//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css\" rel=\"stylesheet\" id=\"bootstrap-css\">\n");
       out.write("<script src=\"//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js\"></script>\n");
       out.write("<script src=\"//code.jquery.com/jquery-1.11.1.min.js\"></script>\n");
+      out.write("<link href=\"../src/java/CSS/login.css\" rel=\"stylesheet\" type=\"text/css\"/>\n");
       out.write("<!------ Include the above in your HEAD tag ---------->\n");
       out.write("\n");
       out.write("<div class=\"container\">\n");
