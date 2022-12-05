@@ -28,6 +28,12 @@ public class Account {
         this.role = role;
     }
 
+    public Account(int id) {
+        this.id = id;
+    }
+
+  
+
     public int getId() {
         return id;
     }
@@ -66,6 +72,11 @@ public class Account {
 
     public void setRole(Role role) {
         this.role = role;
+    }
+
+    @Override
+    public String toString() {
+        return "Account{" + "id=" + id + ", username=" + username + ", password=" + password + ", email=" + email + ", role=" + role + '}';
     }
 
 }

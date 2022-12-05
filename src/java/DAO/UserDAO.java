@@ -4,10 +4,12 @@
  */
 package DAO;
 
+import entity.User;
+
 /**
  *
  * @author duan1
  */
 public interface UserDAO {
-    
+    public User getUserByID(int Id);
 }
