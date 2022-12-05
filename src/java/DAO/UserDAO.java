@@ -12,4 +12,5 @@ import entity.User;
  */
 public interface UserDAO {
     public User getUserByID(int Id);
+    public boolean UpdateUserbyId(User user);
 }

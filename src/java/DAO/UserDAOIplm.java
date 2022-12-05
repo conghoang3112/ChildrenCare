@@ -19,7 +19,12 @@ import java.util.logging.Logger;
  * @author duan1
  */
 public class UserDAOIplm implements UserDAO{
-
+ public static void main(String[] args) {
+        UserDAOIplm dao = new UserDAOIplm();
+        User user = dao.getUserByID(12);
+        
+        System.out.println(user.getAccount().getId());
+    }
     @Override
     public User getUserByID(int Id) {
        User user = null ;
@@ -54,11 +59,40 @@ public class UserDAOIplm implements UserDAO{
         }
         return user;
     }  
-    public static void main(String[] args) {
-        UserDAOIplm dao = new UserDAOIplm();
-        User user = dao.getUserByID(12);
+   
+
+    @Override
+    public boolean UpdateUserbyId(User user) {
+        boolean flag=false;
+     try {
+         Connection conn = new DBContext().getConnection();
+         String sql = "UPDATE [dbo].[User]\n" +
+"   SET [first_name] = ?\n" +
+"      ,[last_name] = ?\n" +
+"      ,[phone] = ?\n" +
+"      ,[address] = ?\n" +
+"      ,[avatar] =?\n" +
+"      ,[sex] = ?\n" +
+"      \n" +
+" WHERE   [user_id] = ?";
+         PreparedStatement ps = conn.prepareStatement(sql);
+         ps.setString(1, user.getFirstName());
+         ps.setString(2, user.getLastName());
+          ps.setString(3, user.getPhone());
+           ps.setString(4, user.getAddress());
+            ps.setString(5, user.getAvatar());
+            ps.setBoolean(6, user.isSex());
+            ps.setInt(7, user.getId());
+            
+           
+          
+         flag=ps.executeUpdate()>0;
+         
+     } catch (Exception ex) {
+         Logger.getLogger(UserDAOIplm.class.getName()).log(Level.SEVERE, null, ex);
+     }
+     return flag;
         
-        System.out.println(user.getAccount().getId());
     }
 }
 
