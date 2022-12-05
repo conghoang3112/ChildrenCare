@@ -23,7 +23,7 @@ public class AccountDAO {
     
     public Account checkLogin(String userName, String userPassword) {
         String query = "select * from Account\n"
-                + "where [UserName] = ? and Password = ?";
+                + "where [username] = ? and password = ?";
         try {
             conn = new DBContext().getConnection();
             ps = conn.prepareStatement(query);
