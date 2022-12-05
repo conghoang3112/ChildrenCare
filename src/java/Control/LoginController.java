@@ -6,7 +6,7 @@
 package Control;
 
 import DAO.AccountDAO;
-import Entity.Account;
+import entity.Account;
 import java.io.IOException;
 import java.io.PrintWriter;
 import javax.servlet.ServletException;
