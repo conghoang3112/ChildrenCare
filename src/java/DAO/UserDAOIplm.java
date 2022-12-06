@@ -78,11 +78,11 @@ public class UserDAOIplm implements UserDAO{
          PreparedStatement ps = conn.prepareStatement(sql);
          ps.setString(1, user.getFirstName());
          ps.setString(2, user.getLastName());
-          ps.setString(3, user.getPhone());
-           ps.setString(4, user.getAddress());
-            ps.setString(5, user.getAvatar());
-            ps.setBoolean(6, user.isSex());
-            ps.setInt(7, user.getId());
+         ps.setString(3, user.getPhone());
+         ps.setString(4, user.getAddress());
+         ps.setString(5, user.getAvatar());
+         ps.setBoolean(6, user.isSex());
+         ps.setInt(7, user.getId());
             
            
           
