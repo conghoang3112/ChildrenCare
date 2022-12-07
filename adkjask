@@ -1,0 +1,62 @@
+[33mcommit a25d56e60593c15dad2904631c79d5e30a880425[m[33m ([m[1;36mHEAD -> [m[1;32mdungnc1[m[33m, [m[1;31morigin/dungnc1[m[33m)[m
+Author: dungnche140981 <dungnche140981@fpt.edu.vn>
+Date:   Wed Dec 7 03:21:01 2022 +0700
+
+    init service html
+
+[33mcommit 7fb47842af06fda13f42827914da3b8c04c895aa[m[33m ([m[1;32mdungnc11[m[33m, [m[1;32mTungLM[m[33m)[m
+Author: dungnche140981 <dungnche140981@fpt.edu.vn>
+Date:   Wed Dec 7 03:05:57 2022 +0700
+
+    init service and pharmacy html
+
+[33mcommit 25fd6262f9670ded197686cd61143a612bb17c2d[m[33m ([m[1;31morigin/TungLM[m[33m)[m
+Merge: cafa743 12e4fbf
+Author: Nguyen Van Duan <119272062+NguyenVanDuan11@users.noreply.github.com>
+Date:   Sun Dec 4 22:44:44 2022 +0700
+
+    Merge pull request #1 from conghoang3112/Duan
+    
+    Duan
+
+[33mcommit 12e4fbf190ad74f8535d150df3c6e134d5db9b46[m
+Author: Nguyen Van Duan <119272062+NguyenVanDuan11@users.noreply.github.com>
+Date:   Sun Dec 4 22:42:20 2022 +0700
+
+    Add DAOCustomer
+
+[33mcommit ba3cb6421d9bfba3d9c23884e01560e8117850e0[m
+Author: Nguyen Van Duan <119272062+NguyenVanDuan11@users.noreply.github.com>
+Date:   Thu Dec 1 20:35:10 2022 +0700
+
+    add Customer DAO
+
+[33mcommit cafa74337277c71522b9bbf488ba2233778651fa[m
+Author: conghoang311 <conghxhe140876@fpt.edu.vn>
+Date:   Thu Dec 1 10:25:09 2022 +0700
+
+    add link training
+
+[33mcommit cae81ad455c6d0214f28a9701709925fa27a4cd6[m
+Author: conghoang311 <conghxhe140876@fpt.edu.vn>
+Date:   Thu Dec 1 10:17:16 2022 +0700
+
+    Add file training.txt
+
+[33mcommit 65affc3cd4279376b8c77a3d9ca12ecf84c78049[m
+Author: conghoang311 <conghxhe140876@fpt.edu.vn>
+Date:   Tue Nov 29 16:48:44 2022 +0700
+
+    Create package
+
+[33mcommit 1aa98ad8a0f5ea97209e96d64b5b60effc35061d[m
+Author: conghoang311 <conghxhe140876@fpt.edu.vn>
+Date:   Tue Nov 29 16:23:46 2022 +0700
+
+    rename file jsp
+
+[33mcommit 9e8eb5bf6a108a091fb78fb19ee1bd0f1454bcc1[m
+Author: conghoang311 <conghxhe140876@fpt.edu.vn>
+Date:   Tue Nov 29 16:18:01 2022 +0700
+
+    1st fiest

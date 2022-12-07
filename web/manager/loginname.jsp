@@ -1,7 +1,7 @@
 <%-- 
-    Document   : newjsp
-    Created on : Nov 29, 2022, 3:51:36 PM
-    Author     : congh
+    Document   : loginname
+    Created on : Aug 10, 2022, 3:06:36 PM
+    Author     : Ngo Tung Son
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
@@ -12,6 +12,6 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <h1>Hello World! hello git hub</h1>
+        <div>Hello ${sessionScope.account.username}</div>
     </body>
 </html>
