@@ -136,7 +136,7 @@
 
                         <div class="col ms-5 mt-5">
 
-                            <button type="submit" value="">Add</button>
+                            <button type="submit" value="">Update</button>
                         </div>
 
 
