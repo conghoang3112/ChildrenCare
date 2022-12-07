@@ -4,6 +4,7 @@
     Author     : duan1
 --%>
 
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html lang="en">
@@ -58,7 +59,7 @@
     </div>
     <div class="row ">
         <div class="container">
-            <form>
+            <form action="UpdateUserController" method="POST">
                 <div class="row ">
                     <div class="col-8 border border-end-1 ">
                         <div class="row d-flex flex-row">
@@ -66,7 +67,7 @@
                                 <Label>Firt Name:</Label>
                             </div>
                             <div class="col pt-5">
-                                <Input type="text" required></Input>
+                                <Input value="${update.firstName}" name="fisrtName" type="text" required></Input>
                             </div>
                             <hr>
                         </div>
@@ -76,7 +77,7 @@
 
                             </div>
                             <div class="col pt-5">
-                                <Input type="text" required></Input>
+                                <Input value="${update.lastName}" name="lastName" type="text" required></Input>
                             </div>
                             <hr>
                         </div>
@@ -86,7 +87,7 @@
 
                             </div>
                             <div class="col pt-5">
-                                <Input type="text" required></Input>
+                                <Input value="${update.phone}" name="phone" type="text" required></Input>
                             </div>
                             <hr>
                         </div>
@@ -97,13 +98,18 @@
                             </div>
                             <div class="col pt-5">
                                 <div class="row ">
+                                    
                                     <div class="col d-flex">
-                                        <input type="radio" id="Male" name="fav_language" value="Male">
+                                        <input type="radio" id="Male" name="sex" value="Male" <c:if test="${update.sex =='true'}">checked</c:if>>
+                                        
                                           <label for="Male">Male</label><br>
+                                        
                                     </div>
                                     <div class="col">
-                                        <input type="radio" id="Female" name="fav_language" value="Female">
+                                       
+                                            <input type="radio" id="Female" name="sex" value="FeMale"  <c:if test="${update.sex =='false'}"> checked</c:if>>
                                           <label for="Female">Female</label><br>
+                                       
                                     </div>
                                 </div>
 
@@ -118,22 +124,12 @@
 
                             </div>
                             <div class="col pt-5">
-                                <Input type="text" required></Input>
+                                <Input value="${update.address}" name="address" type="text" required></Input>
 
                             </div>
-                            <hr>
+                           
                         </div>
-                        <div class="row pt-5 ">
-                            <div class="col text-center">
-                                <Label>Age:</Label>
-
-                            </div>
-                            <div class="col ">
-                                <Input type="text" required></Input>
-
-                            </div>
-
-                        </div>
+                       
 
 
                     </div>

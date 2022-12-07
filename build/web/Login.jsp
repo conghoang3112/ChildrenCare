@@ -13,7 +13,7 @@
     </head>
     <body>
         <div class="form-group">
-            <form action="login2" method="POST">
+            <form action="login2" method="post">
                 
            
                             <input name="user" class="form-control" id="user" placeholder="User name">

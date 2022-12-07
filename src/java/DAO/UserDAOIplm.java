@@ -22,8 +22,8 @@ public class UserDAOIplm implements UserDAO{
  public static void main(String[] args) {
         UserDAOIplm dao = new UserDAOIplm();
         User user = dao.getUserByID(12);
-        
-        System.out.println(user.getAccount().getId());
+        System.out.println(user);
+        //dao.UpdateUserbyId(new User(12, "Nguyen ","Duan", "0123456789", "Nam Dinh", "avata", true));
     }
     @Override
     public User getUserByID(int Id) {
@@ -48,12 +48,12 @@ public class UserDAOIplm implements UserDAO{
            if(rs.next()){
                 Account account = new Account(rs.getInt(1));
               
-               user= new User(rs.getInt(1),account,rs.getString(3),rs.getString(4),rs.getString(5), rs.getString(6),rs.getString(7),rs.getBoolean(8));
+               user= new User(rs.getInt(1),account,rs.getString(2),rs.getString(3),rs.getString(4), rs.getString(5),rs.getString(6),rs.getBoolean(7));
            }
             
             
             
-            
+        
         } catch (Exception ex) {
             Logger.getLogger(UserDAOIplm.class.getName()).log(Level.SEVERE, null, ex);
         }
@@ -76,6 +76,7 @@ public class UserDAOIplm implements UserDAO{
 "      \n" +
 " WHERE   [user_id] = ?";
          PreparedStatement ps = conn.prepareStatement(sql);
+         
          ps.setString(1, user.getFirstName());
          ps.setString(2, user.getLastName());
          ps.setString(3, user.getPhone());

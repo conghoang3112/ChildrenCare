@@ -5,7 +5,8 @@
  */
 package Control;
 
-import DAO.AccountDAOIplm;
+import DAO.UserDAOIplm;
+import entity.User;
 import java.io.IOException;
 import java.io.PrintWriter;
 import javax.servlet.ServletException;
@@ -16,10 +17,10 @@ import javax.servlet.http.HttpServletResponse;
 
 /**
  *
- * @author congh
+ * @author duan1
  */
-@WebServlet(name = "NewServlet", urlPatterns = {"/login"})
-public class NewServlet extends HttpServlet {
+@WebServlet(name = "UpdateUserController", urlPatterns = {"/UpdateUserController"})
+public class UpdateUserController extends HttpServlet {
 
     /**
      * Processes requests for both HTTP <code>GET</code> and <code>POST</code>
@@ -30,12 +31,10 @@ public class NewServlet extends HttpServlet {
      * @throws ServletException if a servlet-specific error occurs
      * @throws IOException if an I/O error occurs
      */
-    protected void processRequest(HttpServletRequest req, HttpServletResponse resp)
+    protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        resp.setContentType("text/html;charset=UTF-8");
-       
-           
-
+        response.setContentType("text/html;charset=UTF-8");
+      
     }
 
     // <editor-fold defaultstate="collapsed" desc="HttpServlet methods. Click on the + sign on the left to edit the code.">
@@ -51,7 +50,15 @@ public class NewServlet extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         processRequest(request, response);
-        //response.sendRedirect("Login.jsp");
+       UserDAOIplm dao = new UserDAOIplm();
+        String s=request.getParameter("id");
+       // int id= Integer.parseInt(s);
+        User user = new User();
+        user=dao.getUserByID(12);
+        System.out.println(user);
+        request.setAttribute("update",user);
+        //System.out.println(user);
+        request.getRequestDispatcher("UpdateUserProfile.jsp").forward(request, response);
         
     }
 
@@ -67,17 +74,23 @@ public class NewServlet extends HttpServlet {
     protected void doPost(HttpServletRequest req, HttpServletResponse resp)
             throws ServletException, IOException {
         processRequest(req, resp);
-                   String user = req.getParameter("user");
-        String pass = req.getParameter("pass");
-        AccountDAOIplm dao =new AccountDAOIplm();
-        if(dao.checkAccountExists(user, pass)){
-            req.getRequestDispatcher("index.html").forward(req, resp);
-            System.out.println(dao.checkAccountExists(user, pass)+"true");
-        }else{
-            resp.sendRedirect("Login.jsp");
-            System.out.println(dao.checkAccountExists(user, pass)+"false");
-     
+        String fName=req.getParameter("fisrtName");
+        String lName=req.getParameter("lastName");
+        String phone=req.getParameter("phone");
+        String sex=req.getParameter("sex");
+        boolean sexdata= true;
+        if(sex.equals("Male")){
+            sexdata=true;
+        }else if(sex.equals("FeMale")){
+             sexdata=false;
         }
+        String address =req.getParameter("address");
+        
+       String avate = req.getParameter("avata");
+       UserDAOIplm dao= new UserDAOIplm();
+       User user = new User(12, fName, lName, phone, address, avate, sexdata);
+      dao.UpdateUserbyId(user);
+      resp.sendRedirect(req.getContextPath()+"/ViewUserController");
     }
 
     /**

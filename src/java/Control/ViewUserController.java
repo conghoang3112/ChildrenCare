@@ -5,11 +5,11 @@
  */
 package Control;
 
-import DAO.AccountDAOIplm;
+import DAO.UserDAOIplm;
+import entity.User;
 import java.io.IOException;
 import java.io.PrintWriter;
 import javax.servlet.ServletException;
-import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -18,8 +18,7 @@ import javax.servlet.http.HttpServletResponse;
  *
  * @author duan1
  */
-@WebServlet(name = "login2", urlPatterns = {"/login2"})
-public class login2 extends HttpServlet {
+public class ViewUserController extends HttpServlet {
 
     /**
      * Processes requests for both HTTP <code>GET</code> and <code>POST</code>
@@ -33,7 +32,9 @@ public class login2 extends HttpServlet {
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         response.setContentType("text/html;charset=UTF-8");
-    
+     
+        
+       
     }
 
     // <editor-fold defaultstate="collapsed" desc="HttpServlet methods. Click on the + sign on the left to edit the code.">
@@ -49,7 +50,16 @@ public class login2 extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         processRequest(request, response);
-        response.sendRedirect("Login.jsp");
+        //response.sendRedirect("ViewUserProfile.jsp");
+           UserDAOIplm dao = new UserDAOIplm();
+        
+        User user = new User();
+        user=dao.getUserByID(12);
+        request.setAttribute("user", user);
+        String s=request.getContextPath();
+       
+        request.setAttribute("s", s);
+        request.getRequestDispatcher("ViewUserProfile.jsp").forward(request, response);
     }
 
     /**
@@ -61,20 +71,9 @@ public class login2 extends HttpServlet {
      * @throws IOException if an I/O error occurs
      */
     @Override
-    protected void doPost(HttpServletRequest req, HttpServletResponse resp)
+    protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        processRequest(req, resp);
-           String user = req.getParameter("user");
-        String pass = req.getParameter("pass");
-        AccountDAOIplm dao =new AccountDAOIplm();
-        if(dao.checkAccountExists(user, pass)){
-            req.getRequestDispatcher("index.html").forward(req, resp);
-            System.out.println(dao.checkAccountExists(user, pass)+"true");
-        }else{
-            resp.sendRedirect("Login.jsp");
-            System.out.println(dao.checkAccountExists(user, pass)+"false");
-     
-        }
+        processRequest(request, response);
     }
 
     /**
