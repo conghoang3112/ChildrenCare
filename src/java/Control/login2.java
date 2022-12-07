@@ -16,10 +16,10 @@ import javax.servlet.http.HttpServletResponse;
 
 /**
  *
- * @author congh
+ * @author duan1
  */
-@WebServlet(name = "NewServlet", urlPatterns = {"/login"})
-public class NewServlet extends HttpServlet {
+@WebServlet(name = "login2", urlPatterns = {"/login2"})
+public class login2 extends HttpServlet {
 
     /**
      * Processes requests for both HTTP <code>GET</code> and <code>POST</code>
@@ -30,12 +30,10 @@ public class NewServlet extends HttpServlet {
      * @throws ServletException if a servlet-specific error occurs
      * @throws IOException if an I/O error occurs
      */
-    protected void processRequest(HttpServletRequest req, HttpServletResponse resp)
+    protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        resp.setContentType("text/html;charset=UTF-8");
-       
-           
-
+        response.setContentType("text/html;charset=UTF-8");
+    
     }
 
     // <editor-fold defaultstate="collapsed" desc="HttpServlet methods. Click on the + sign on the left to edit the code.">
@@ -52,7 +50,6 @@ public class NewServlet extends HttpServlet {
             throws ServletException, IOException {
         processRequest(request, response);
         //response.sendRedirect("Login.jsp");
-        
     }
 
     /**
@@ -67,7 +64,7 @@ public class NewServlet extends HttpServlet {
     protected void doPost(HttpServletRequest req, HttpServletResponse resp)
             throws ServletException, IOException {
         processRequest(req, resp);
-                   String user = req.getParameter("user");
+           String user = req.getParameter("user");
         String pass = req.getParameter("pass");
         AccountDAOIplm dao =new AccountDAOIplm();
         if(dao.checkAccountExists(user, pass)){
