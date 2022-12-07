@@ -3,7 +3,7 @@
     Created on : Nov 29, 2022, 3:51:36 PM
     Author     : congh
 --%>
-
+<!--<link href="css/login.css" rel="stylesheet" type="text/css"/>-->
 <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
@@ -12,7 +12,9 @@
 
 <html>
     <head>
-        <link href="../src/java/CSS/login.css" rel="stylesheet" type="text/css"/>
+        <link href="css/login.css" rel="stylesheet" type="text/css"/>
+        <!--<link rel="stylesheet" href="../src/java/CSS/login.css"/>-->
+        <!--<link href="../src/java/CSS/login.css" rel="stylesheet" type="text/css"/>-->
         <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
         <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
         <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -39,7 +41,7 @@
                         </div>
                         <button type="submit" class="btn btn-primary">Login</button>
                         <a>${mess}</a>
-                        
+
                     </form>
                 </div>
             </div></div></div>
