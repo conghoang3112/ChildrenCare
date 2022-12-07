@@ -16,7 +16,9 @@ public class TimeSlot {
 
     public TimeSlot() {
     }
-
+    public TimeSlot(int id) {
+        this.id = id;
+    }
     public TimeSlot(int id, String slotTime) {
         this.id = id;
         this.slotTime = slotTime;

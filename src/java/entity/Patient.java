@@ -23,6 +23,10 @@ public class Patient {
 
     public Patient() {
     }
+    
+    public Patient(int id) {
+        this.id= id;
+    }
 
     public Patient(int id, User user, String name, Date dob, String avatar, boolean sex, String note) {
         this.id = id;
