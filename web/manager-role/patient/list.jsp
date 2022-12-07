@@ -8,17 +8,17 @@
     <title>Doctris - Doctor Appointment Booking System</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- favicon -->
-    <link rel="shortcut icon" href="${pageContext.request.contextPath}/assets/images/favicon.ico.png">
+    <link rel="shortcut icon" href="../assets/images/favicon.ico.png">
     <!-- Bootstrap -->
-    <link href="${pageContext.request.contextPath}/assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="../assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
     <!-- simplebar -->
-    <link href="${pageContext.request.contextPath}/assets/css/simplebar.css" rel="stylesheet" type="text/css" />
+    <link href="../assets/css/simplebar.css" rel="stylesheet" type="text/css" />
     <!-- Icons -->
-    <link href="${pageContext.request.contextPath}/assets/css/materialdesignicons.min.css" rel="stylesheet" type="text/css" />
-    <link href="${pageContext.request.contextPath}/assets/css/remixicon.css" rel="stylesheet" type="text/css" />
+    <link href="../assets/css/materialdesignicons.min.css" rel="stylesheet" type="text/css" />
+    <link href="../assets/css/remixicon.css" rel="stylesheet" type="text/css" />
     <link href="https://unicons.iconscout.com/release/v3.0.6/css/line.css"  rel="stylesheet">
     <!-- Css -->
-    <link href="${pageContext.request.contextPath}/assets/css/style.min.css" rel="stylesheet" type="text/css" id="theme-opt" />
+    <link href="../assets/css/style.min.css" rel="stylesheet" type="text/css" id="theme-opt" />
 
 </head>
 
@@ -79,7 +79,7 @@
                                     <td class="py-3">
                                         <a href="#" class="text-dark">
                                             <div class="d-flex align-items-center">
-                                                <img src="${pageContext.request.contextPath}/assets/images/client/01.jpg" class="avatar avatar-md-sm rounded-circle shadow" alt="">
+                                                <img src="../assets/images/client/01.jpg" class="avatar avatar-md-sm rounded-circle shadow" alt="">
                                                 <span class="ms-2">Howard Tanner</span>
                                             </div>
                                         </a>
@@ -104,7 +104,7 @@
                                     <td class="py-3">
                                         <a href="#" class="text-dark">
                                             <div class="d-flex align-items-center">
-                                                <img src="${pageContext.request.contextPath}/assets/images/client/02.jpg" class="avatar avatar-md-sm rounded-circle shadow" alt="">
+                                                <img src="../assets/images/client/02.jpg" class="avatar avatar-md-sm rounded-circle shadow" alt="">
                                                 <span class="ms-2">Wendy Filson</span>
                                             </div>
                                         </a>
@@ -129,7 +129,7 @@
                                     <td class="py-3">
                                         <a href="#" class="text-dark">
                                             <div class="d-flex align-items-center">
-                                                <img src="${pageContext.request.contextPath}/assets/images/client/03.jpg" class="avatar avatar-md-sm rounded-circle shadow" alt="">
+                                                <img src="../assets/images/client/03.jpg" class="avatar avatar-md-sm rounded-circle shadow" alt="">
                                                 <span class="ms-2">Faye Bridger</span>
                                             </div>
                                         </a>
@@ -154,7 +154,7 @@
                                     <td class="py-3">
                                         <a href="#" class="text-dark">
                                             <div class="d-flex align-items-center">
-                                                <img src="${pageContext.request.contextPath}/assets/images/client/04.jpg" class="avatar avatar-md-sm rounded-circle shadow" alt="">
+                                                <img src="../assets/images/client/04.jpg" class="avatar avatar-md-sm rounded-circle shadow" alt="">
                                                 <span class="ms-2">Ronald Curtis</span>
                                             </div>
                                         </a>
@@ -179,7 +179,7 @@
                                     <td class="py-3">
                                         <a href="#" class="text-dark">
                                             <div class="d-flex align-items-center">
-                                                <img src="${pageContext.request.contextPath}/assets/images/client/05.jpg" class="avatar avatar-md-sm rounded-circle shadow" alt="">
+                                                <img src="../assets/images/client/05.jpg" class="avatar avatar-md-sm rounded-circle shadow" alt="">
                                                 <span class="ms-2">Melissa Hibner</span>
                                             </div>
                                         </a>
@@ -204,7 +204,7 @@
                                     <td class="py-3">
                                         <a href="#" class="text-dark">
                                             <div class="d-flex align-items-center">
-                                                <img src="${pageContext.request.contextPath}/assets/images/client/06.jpg" class="avatar avatar-md-sm rounded-circle shadow" alt="">
+                                                <img src="../assets/images/client/06.jpg" class="avatar avatar-md-sm rounded-circle shadow" alt="">
                                                 <span class="ms-2">Randall Case</span>
                                             </div>
                                         </a>
@@ -229,7 +229,7 @@
                                     <td class="py-3">
                                         <a href="#" class="text-dark">
                                             <div class="d-flex align-items-center">
-                                                <img src="${pageContext.request.contextPath}/assets/images/client/07.jpg" class="avatar avatar-md-sm rounded-circle shadow" alt="">
+                                                <img src="../assets/images/client/07.jpg" class="avatar avatar-md-sm rounded-circle shadow" alt="">
                                                 <span class="ms-2">Jerry Morena</span>
                                             </div>
                                         </a>
@@ -254,7 +254,7 @@
                                     <td class="py-3">
                                         <a href="#" class="text-dark">
                                             <div class="d-flex align-items-center">
-                                                <img src="${pageContext.request.contextPath}/assets/images/client/08.jpg" class="avatar avatar-md-sm rounded-circle shadow" alt="">
+                                                <img src="../assets/images/client/08.jpg" class="avatar avatar-md-sm rounded-circle shadow" alt="">
                                                 <span class="ms-2">Lester McNally</span>
                                             </div>
                                         </a>
@@ -279,7 +279,7 @@
                                     <td class="py-3">
                                         <a href="#" class="text-dark">
                                             <div class="d-flex align-items-center">
-                                                <img src="${pageContext.request.contextPath}/assets/images/client/09.jpg" class="avatar avatar-md-sm rounded-circle shadow" alt="">
+                                                <img src="../assets/images/client/09.jpg" class="avatar avatar-md-sm rounded-circle shadow" alt="">
                                                 <span class="ms-2">Christopher Burrell</span>
                                             </div>
                                         </a>
@@ -304,7 +304,7 @@
                                     <td class="py-3">
                                         <a href="#" class="text-dark">
                                             <div class="d-flex align-items-center">
-                                                <img src="${pageContext.request.contextPath}/assets/images/client/10.jpg" class="avatar avatar-md-sm rounded-circle shadow" alt="">
+                                                <img src="../assets/images/client/10.jpg" class="avatar avatar-md-sm rounded-circle shadow" alt="">
                                                 <span class="ms-2">Mary Skeens</span>
                                             </div>
                                         </a>
@@ -358,8 +358,8 @@
 <div class="offcanvas offcanvas-end bg-white shadow" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
     <div class="offcanvas-header p-4 border-bottom">
         <h5 id="offcanvasRightLabel" class="mb-0">
-            <img src="${pageContext.request.contextPath}/assets/images/logo-dark.png" height="24" class="light-version" alt="">
-            <img src="${pageContext.request.contextPath}/assets/images/logo-light.png" height="24" class="dark-version" alt="">
+            <img src="../assets/images/logo-dark.png" height="24" class="light-version" alt="">
+            <img src="../assets/images/logo-light.png" height="24" class="dark-version" alt="">
         </h5>
         <button type="button" class="btn-close d-flex align-items-center text-dark" data-bs-dismiss="offcanvas" aria-label="Close"><i class="uil uil-times fs-4"></i></button>
     </div>
@@ -370,13 +370,13 @@
                 <div id="style-switcher">
                     <div>
                         <ul class="text-center list-unstyled mb-0">
-                            <li class="d-grid"><a href="javascript:void(0)" class="rtl-version t-rtl-light" onclick="setTheme('style-rtl')"><img src="${pageContext.request.contextPath}/assets/images/layouts/light-dash-rtl.png" class="img-fluid rounded-md shadow-md d-block" alt=""><span class="text-muted mt-2 d-block">RTL Version</span></a></li>
-                            <li class="d-grid"><a href="javascript:void(0)" class="ltr-version t-ltr-light" onclick="setTheme('style')"><img src="${pageContext.request.contextPath}/assets/images/layouts/light-dash.png" class="img-fluid rounded-md shadow-md d-block" alt=""><span class="text-muted mt-2 d-block">LTR Version</span></a></li>
-                            <li class="d-grid"><a href="javascript:void(0)" class="dark-rtl-version t-rtl-dark" onclick="setTheme('style-dark-rtl')"><img src="${pageContext.request.contextPath}/assets/images/layouts/dark-dash-rtl.png" class="img-fluid rounded-md shadow-md d-block" alt=""><span class="text-muted mt-2 d-block">RTL Version</span></a></li>
-                            <li class="d-grid"><a href="javascript:void(0)" class="dark-ltr-version t-ltr-dark" onclick="setTheme('style-dark')"><img src="${pageContext.request.contextPath}/assets/images/layouts/dark-dash.png" class="img-fluid rounded-md shadow-md d-block" alt=""><span class="text-muted mt-2 d-block">LTR Version</span></a></li>
-                            <li class="d-grid"><a href="javascript:void(0)" class="dark-version t-dark mt-4" onclick="setTheme('style-dark')"><img src="${pageContext.request.contextPath}/assets/images/layouts/dark-dash.png" class="img-fluid rounded-md shadow-md d-block" alt=""><span class="text-muted mt-2 d-block">Dark Version</span></a></li>
-                            <li class="d-grid"><a href="javascript:void(0)" class="light-version t-light mt-4" onclick="setTheme('style')"><img src="${pageContext.request.contextPath}/assets/images/layouts/light-dash.png" class="img-fluid rounded-md shadow-md d-block" alt=""><span class="text-muted mt-2 d-block">Light Version</span></a></li>
-                            <li class="d-grid"><a href="../landing/index.html" target="_blank" class="mt-4"><img src="${pageContext.request.contextPath}/assets/images/layouts/landing-light.png" class="img-fluid rounded-md shadow-md d-block" alt=""><span class="text-muted mt-2 d-block">Landing Demos</span></a></li>
+                            <li class="d-grid"><a href="javascript:void(0)" class="rtl-version t-rtl-light" onclick="setTheme('style-rtl')"><img src="../assets/images/layouts/light-dash-rtl.png" class="img-fluid rounded-md shadow-md d-block" alt=""><span class="text-muted mt-2 d-block">RTL Version</span></a></li>
+                            <li class="d-grid"><a href="javascript:void(0)" class="ltr-version t-ltr-light" onclick="setTheme('style')"><img src="../assets/images/layouts/light-dash.png" class="img-fluid rounded-md shadow-md d-block" alt=""><span class="text-muted mt-2 d-block">LTR Version</span></a></li>
+                            <li class="d-grid"><a href="javascript:void(0)" class="dark-rtl-version t-rtl-dark" onclick="setTheme('style-dark-rtl')"><img src="../assets/images/layouts/dark-dash-rtl.png" class="img-fluid rounded-md shadow-md d-block" alt=""><span class="text-muted mt-2 d-block">RTL Version</span></a></li>
+                            <li class="d-grid"><a href="javascript:void(0)" class="dark-ltr-version t-ltr-dark" onclick="setTheme('style-dark')"><img src="../assets/images/layouts/dark-dash.png" class="img-fluid rounded-md shadow-md d-block" alt=""><span class="text-muted mt-2 d-block">LTR Version</span></a></li>
+                            <li class="d-grid"><a href="javascript:void(0)" class="dark-version t-dark mt-4" onclick="setTheme('style-dark')"><img src="../assets/images/layouts/dark-dash.png" class="img-fluid rounded-md shadow-md d-block" alt=""><span class="text-muted mt-2 d-block">Dark Version</span></a></li>
+                            <li class="d-grid"><a href="javascript:void(0)" class="light-version t-light mt-4" onclick="setTheme('style')"><img src="../assets/images/layouts/light-dash.png" class="img-fluid rounded-md shadow-md d-block" alt=""><span class="text-muted mt-2 d-block">Light Version</span></a></li>
+                            <li class="d-grid"><a href="../landing/index.html" target="_blank" class="mt-4"><img src="../assets/images/layouts/landing-light.png" class="img-fluid rounded-md shadow-md d-block" alt=""><span class="text-muted mt-2 d-block">Landing Demos</span></a></li>
                         </ul>
                     </div>
                 </div>
@@ -411,7 +411,7 @@
             <div class="modal-body p-3 pt-4">
                 <div class="row align-items-center">
                     <div class="col-lg-2 col-md-4">
-                        <img src="${pageContext.request.contextPath}/assets/images/doctors/01.jpg" class="avatar avatar-md-md rounded-pill shadow mx-auto d-block" alt="">
+                        <img src="../assets/images/doctors/01.jpg" class="avatar avatar-md-md rounded-pill shadow mx-auto d-block" alt="">
                     </div><!--end col-->
 
                     <div class="col-lg-5 col-md-8 text-center text-md-start mt-4 mt-sm-0">
@@ -485,7 +485,7 @@
             </div>
             <div class="modal-body p-3 pt-4">
                 <div class="d-flex align-items-center">
-                    <img src="${pageContext.request.contextPath}/assets/images/client/01.jpg" class="avatar avatar-small rounded-pill" alt="">
+                    <img src="../assets/images/client/01.jpg" class="avatar avatar-small rounded-pill" alt="">
                     <h5 class="mb-0 ms-3">Howard Tanner</h5>
                 </div>
                 <ul class="list-unstyled mb-0 d-md-flex justify-content-between mt-4">
@@ -534,13 +534,13 @@
 <!-- Modal end -->
 
 <!-- javascript -->
-<script src="${pageContext.request.contextPath}/assets/js/bootstrap.bundle.min.js"></script>
+<script src="../assets/js/bootstrap.bundle.min.js"></script>
 <!-- simplebar -->
-<script src="${pageContext.request.contextPath}/assets/js/simplebar.min.js"></script>
+<script src="../assets/js/simplebar.min.js"></script>
 <!-- Icons -->
-<script src="${pageContext.request.contextPath}/assets/js/feather.min.js"></script>
+<script src="../assets/js/feather.min.js"></script>
 <!-- Main Js -->
-<script src="${pageContext.request.contextPath}/assets/js/app.js"></script>
+<script src="../assets/js/app.js"></script>
 
 </body>
 

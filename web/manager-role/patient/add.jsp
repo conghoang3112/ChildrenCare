@@ -14,21 +14,21 @@
     <meta name="website" content="../../../index.html" />
     <meta name="Version" content="v1.2.0" />
     <!-- favicon -->
-    <link rel="shortcut icon" href="${pageContext.request.contextPath}/assets/images/favicon.ico.png">
+    <link rel="shortcut icon" href="../assets/images/favicon.ico.png">
     <!-- Bootstrap -->
-    <link href="${pageContext.request.contextPath}/assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="../assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
     <!-- simplebar -->
-    <link href="${pageContext.request.contextPath}/assets/css/simplebar.css" rel="stylesheet" type="text/css" />
+    <link href="../assets/css/simplebar.css" rel="stylesheet" type="text/css" />
     <!-- Select2 -->
-    <link href="${pageContext.request.contextPath}/assets/css/select2.min.css" rel="stylesheet" />
+    <link href="../assets/css/select2.min.css" rel="stylesheet" />
     <!-- Date picker -->
-    <link rel="stylesheet" href="${pageContext.request.contextPath}/assets/css/flatpickr.min.css">
+    <link rel="stylesheet" href="../assets/css/flatpickr.min.css">
     <!-- Icons -->
-    <link href="${pageContext.request.contextPath}/assets/css/materialdesignicons.min.css" rel="stylesheet" type="text/css" />
-    <link href="${pageContext.request.contextPath}/assets/css/remixicon.css" rel="stylesheet" type="text/css" />
+    <link href="../assets/css/materialdesignicons.min.css" rel="stylesheet" type="text/css" />
+    <link href="../assets/css/remixicon.css" rel="stylesheet" type="text/css" />
     <link href="https://unicons.iconscout.com/release/v3.0.6/css/line.css"  rel="stylesheet">
     <!-- Css -->
-    <link href="${pageContext.request.contextPath}/assets/css/style.min.css" rel="stylesheet" type="text/css" id="theme-opt" />
+    <link href="../assets/css/style.min.css" rel="stylesheet" type="text/css" id="theme-opt" />
 
 </head>
 
@@ -70,7 +70,7 @@
                         <div class="card border-0 p-4 rounded shadow">
                             <div class="row align-items-center">
                                 <div class="col-lg-2 col-md-4">
-                                    <img src="${pageContext.request.contextPath}/assets/images/client/01.jpg" class="avatar avatar-md-md rounded-pill shadow mx-auto d-block" alt="">
+                                    <img src="../assets/images/client/01.jpg" class="avatar avatar-md-md rounded-pill shadow mx-auto d-block" alt="">
                                 </div><!--end col-->
 
                                 <div class="col-lg-5 col-md-8 text-center text-md-start mt-4 mt-sm-0">
@@ -151,7 +151,7 @@
 
                             <ul class="list-unstyled mb-0 p-4" data-simplebar style="height: 664px;">
                                 <li class="d-md-flex align-items-center text-center text-md-start">
-                                    <img src="${pageContext.request.contextPath}/assets/images/doctors/01.jpg" class="avatar avatar-medium rounded-md shadow" alt="">
+                                    <img src="../assets/images/doctors/01.jpg" class="avatar avatar-medium rounded-md shadow" alt="">
 
                                     <div class="ms-md-3 mt-4 mt-sm-0">
                                         <a href="#" class="text-dark h6">Dr. Calvin Carlo</a>
@@ -161,7 +161,7 @@
                                 </li>
 
                                 <li class="d-md-flex align-items-center text-center text-md-start mt-4">
-                                    <img src="${pageContext.request.contextPath}/assets/images/doctors/02.jpg" class="avatar avatar-medium rounded-md shadow" alt="">
+                                    <img src="../assets/images/doctors/02.jpg" class="avatar avatar-medium rounded-md shadow" alt="">
 
                                     <div class="ms-md-3 mt-4 mt-sm-0">
                                         <a href="#" class="text-dark h6">Dr. Alex Smith</a>
@@ -171,7 +171,7 @@
                                 </li>
 
                                 <li class="d-md-flex align-items-center text-center text-md-start mt-4">
-                                    <img src="${pageContext.request.contextPath}/assets/images/doctors/03.jpg" class="avatar avatar-medium rounded-md shadow" alt="">
+                                    <img src="../assets/images/doctors/03.jpg" class="avatar avatar-medium rounded-md shadow" alt="">
 
                                     <div class="ms-md-3 mt-4 mt-sm-0">
                                         <a href="#" class="text-dark h6">Dr. Cristina Luly</a>
@@ -181,7 +181,7 @@
                                 </li>
 
                                 <li class="d-md-flex align-items-center text-center text-md-start mt-4">
-                                    <img src="${pageContext.request.contextPath}/assets/images/doctors/04.jpg" class="avatar avatar-medium rounded-md shadow" alt="">
+                                    <img src="../assets/images/doctors/04.jpg" class="avatar avatar-medium rounded-md shadow" alt="">
 
                                     <div class="ms-md-3 mt-4 mt-sm-0">
                                         <a href="#" class="text-dark h6">Dr. Dwayen Maria</a>
@@ -191,7 +191,7 @@
                                 </li>
 
                                 <li class="d-md-flex align-items-center text-center text-md-start mt-4">
-                                    <img src="${pageContext.request.contextPath}/assets/images/doctors/05.jpg" class="avatar avatar-medium rounded-md shadow" alt="">
+                                    <img src="../assets/images/doctors/05.jpg" class="avatar avatar-medium rounded-md shadow" alt="">
 
                                     <div class="ms-md-3 mt-4 mt-sm-0">
                                         <a href="#" class="text-dark h6">Dr. Jenelia Focia</a>
@@ -220,8 +220,8 @@
 <div class="offcanvas offcanvas-end bg-white shadow" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
     <div class="offcanvas-header p-4 border-bottom">
         <h5 id="offcanvasRightLabel" class="mb-0">
-            <img src="${pageContext.request.contextPath}/assets/images/logo-dark.png" height="24" class="light-version" alt="">
-            <img src="${pageContext.request.contextPath}/assets/images/logo-light.png" height="24" class="dark-version" alt="">
+            <img src="../assets/images/logo-dark.png" height="24" class="light-version" alt="">
+            <img src="../assets/images/logo-light.png" height="24" class="dark-version" alt="">
         </h5>
         <button type="button" class="btn-close d-flex align-items-center text-dark" data-bs-dismiss="offcanvas" aria-label="Close"><i class="uil uil-times fs-4"></i></button>
     </div>
@@ -232,13 +232,13 @@
                 <div id="style-switcher">
                     <div>
                         <ul class="text-center list-unstyled mb-0">
-                            <li class="d-grid"><a href="javascript:void(0)" class="rtl-version t-rtl-light" onclick="setTheme('style-rtl')"><img src="${pageContext.request.contextPath}/assets/images/layouts/light-dash-rtl.png" class="img-fluid rounded-md shadow-md d-block" alt=""><span class="text-muted mt-2 d-block">RTL Version</span></a></li>
-                            <li class="d-grid"><a href="javascript:void(0)" class="ltr-version t-ltr-light" onclick="setTheme('style')"><img src="${pageContext.request.contextPath}/assets/images/layouts/light-dash.png" class="img-fluid rounded-md shadow-md d-block" alt=""><span class="text-muted mt-2 d-block">LTR Version</span></a></li>
-                            <li class="d-grid"><a href="javascript:void(0)" class="dark-rtl-version t-rtl-dark" onclick="setTheme('style-dark-rtl')"><img src="${pageContext.request.contextPath}/assets/images/layouts/dark-dash-rtl.png" class="img-fluid rounded-md shadow-md d-block" alt=""><span class="text-muted mt-2 d-block">RTL Version</span></a></li>
-                            <li class="d-grid"><a href="javascript:void(0)" class="dark-ltr-version t-ltr-dark" onclick="setTheme('style-dark')"><img src="${pageContext.request.contextPath}/assets/images/layouts/dark-dash.png" class="img-fluid rounded-md shadow-md d-block" alt=""><span class="text-muted mt-2 d-block">LTR Version</span></a></li>
-                            <li class="d-grid"><a href="javascript:void(0)" class="dark-version t-dark mt-4" onclick="setTheme('style-dark')"><img src="${pageContext.request.contextPath}/assets/images/layouts/dark-dash.png" class="img-fluid rounded-md shadow-md d-block" alt=""><span class="text-muted mt-2 d-block">Dark Version</span></a></li>
-                            <li class="d-grid"><a href="javascript:void(0)" class="light-version t-light mt-4" onclick="setTheme('style')"><img src="${pageContext.request.contextPath}/assets/images/layouts/light-dash.png" class="img-fluid rounded-md shadow-md d-block" alt=""><span class="text-muted mt-2 d-block">Light Version</span></a></li>
-                            <li class="d-grid"><a href="../landing/index.html" target="_blank" class="mt-4"><img src="${pageContext.request.contextPath}/assets/images/layouts/landing-light.png" class="img-fluid rounded-md shadow-md d-block" alt=""><span class="text-muted mt-2 d-block">Landing Demos</span></a></li>
+                            <li class="d-grid"><a href="javascript:void(0)" class="rtl-version t-rtl-light" onclick="setTheme('style-rtl')"><img src="../assets/images/layouts/light-dash-rtl.png" class="img-fluid rounded-md shadow-md d-block" alt=""><span class="text-muted mt-2 d-block">RTL Version</span></a></li>
+                            <li class="d-grid"><a href="javascript:void(0)" class="ltr-version t-ltr-light" onclick="setTheme('style')"><img src="../assets/images/layouts/light-dash.png" class="img-fluid rounded-md shadow-md d-block" alt=""><span class="text-muted mt-2 d-block">LTR Version</span></a></li>
+                            <li class="d-grid"><a href="javascript:void(0)" class="dark-rtl-version t-rtl-dark" onclick="setTheme('style-dark-rtl')"><img src="../assets/images/layouts/dark-dash-rtl.png" class="img-fluid rounded-md shadow-md d-block" alt=""><span class="text-muted mt-2 d-block">RTL Version</span></a></li>
+                            <li class="d-grid"><a href="javascript:void(0)" class="dark-ltr-version t-ltr-dark" onclick="setTheme('style-dark')"><img src="../assets/images/layouts/dark-dash.png" class="img-fluid rounded-md shadow-md d-block" alt=""><span class="text-muted mt-2 d-block">LTR Version</span></a></li>
+                            <li class="d-grid"><a href="javascript:void(0)" class="dark-version t-dark mt-4" onclick="setTheme('style-dark')"><img src="../assets/images/layouts/dark-dash.png" class="img-fluid rounded-md shadow-md d-block" alt=""><span class="text-muted mt-2 d-block">Dark Version</span></a></li>
+                            <li class="d-grid"><a href="javascript:void(0)" class="light-version t-light mt-4" onclick="setTheme('style')"><img src="../assets/images/layouts/light-dash.png" class="img-fluid rounded-md shadow-md d-block" alt=""><span class="text-muted mt-2 d-block">Light Version</span></a></li>
+                            <li class="d-grid"><a href="../landing/index.html" target="_blank" class="mt-4"><img src="../assets/images/layouts/landing-light.png" class="img-fluid rounded-md shadow-md d-block" alt=""><span class="text-muted mt-2 d-block">Landing Demos</span></a></li>
                         </ul>
                     </div>
                 </div>
@@ -271,7 +271,7 @@
             </div>
             <div class="modal-body p-3 pt-4">
                 <div class="d-flex align-items-center">
-                    <img src="${pageContext.request.contextPath}/assets/images/client/01.jpg" class="avatar avatar-small rounded-pill" alt="">
+                    <img src="../assets/images/client/01.jpg" class="avatar avatar-small rounded-pill" alt="">
                     <h5 class="mb-0 ms-3">Howard Tanner</h5>
                 </div>
                 <ul class="list-unstyled mb-0 d-md-flex justify-content-between mt-4">
@@ -366,20 +366,20 @@
 <!-- Modal end -->
 
 <!-- javascript -->
-<script src="${pageContext.request.contextPath}/assets/js/jquery.min.js"></script>
-<script src="${pageContext.request.contextPath}/assets/js/bootstrap.bundle.min.js"></script>
+<script src="../assets/js/jquery.min.js"></script>
+<script src="../assets/js/bootstrap.bundle.min.js"></script>
 <!-- simplebar -->
-<script src="${pageContext.request.contextPath}/assets/js/simplebar.min.js"></script>
+<script src="../assets/js/simplebar.min.js"></script>
 <!-- Select2 -->
-<script src="${pageContext.request.contextPath}/assets/js/select2.min.js"></script>
-<script src="${pageContext.request.contextPath}/assets/js/select2.init.js"></script>
+<script src="../assets/js/select2.min.js"></script>
+<script src="../assets/js/select2.init.js"></script>
 <!-- Datepicker -->
-<script src="${pageContext.request.contextPath}/assets/js/flatpickr.min.js"></script>
-<script src="${pageContext.request.contextPath}/assets/js/flatpickr.init.js"></script>
+<script src="../assets/js/flatpickr.min.js"></script>
+<script src="../assets/js/flatpickr.init.js"></script>
 <!-- Icons -->
-<script src="${pageContext.request.contextPath}/assets/js/feather.min.js"></script>
+<script src="../assets/js/feather.min.js"></script>
 <!-- Main Js -->
-<script src="${pageContext.request.contextPath}/assets/js/app.js"></script>
+<script src="../assets/js/app.js"></script>
 
 </body>
 

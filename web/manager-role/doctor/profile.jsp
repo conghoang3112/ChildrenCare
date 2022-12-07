@@ -8,19 +8,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <!-- favicon -->
-  <link rel="shortcut icon" href="${pageContext.request.contextPath}/assets/images/favicon.ico.png">
+  <link rel="shortcut icon" href="../assets/images/favicon.ico.png">
   <!-- Bootstrap -->
-  <link href="${pageContext.request.contextPath}/assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+  <link href="../assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
   <!-- simplebar -->
-  <link href="${pageContext.request.contextPath}/assets/css/simplebar.css" rel="stylesheet" type="text/css" />
+  <link href="../assets/css/simplebar.css" rel="stylesheet" type="text/css" />
   <!-- SLIDER -->
-  <link href="${pageContext.request.contextPath}/assets/css/tiny-slider.css" rel="stylesheet" />
+  <link href="../assets/css/tiny-slider.css" rel="stylesheet" />
   <!-- Icons -->
-  <link href="${pageContext.request.contextPath}/assets/css/materialdesignicons.min.css" rel="stylesheet" type="text/css" />
-  <link href="${pageContext.request.contextPath}/assets/css/remixicon.css" rel="stylesheet" type="text/css" />
+  <link href="../assets/css/materialdesignicons.min.css" rel="stylesheet" type="text/css" />
+  <link href="../assets/css/remixicon.css" rel="stylesheet" type="text/css" />
   <link href="https://unicons.iconscout.com/release/v3.0.6/css/line.css"  rel="stylesheet">
   <!-- Css -->
-  <link href="${pageContext.request.contextPath}/assets/css/style.min.css" rel="stylesheet" type="text/css" id="theme-opt" />
+  <link href="../assets/css/style.min.css" rel="stylesheet" type="text/css" id="theme-opt" />
 
 </head>
 
@@ -60,7 +60,7 @@
         <div class="card bg-white rounded shadow overflow-hidden mt-4 border-0">
           <div class="p-5 bg-primary bg-gradient"></div>
           <div class="avatar-profile d-flex margin-nagative mt-n5 position-relative ps-3">
-            <img src="${pageContext.request.contextPath}/assets/images/doctors/01.jpg" class="rounded-circle shadow-md avatar avatar-medium" alt="">
+            <img src="../assets/images/doctors/01.jpg" class="rounded-circle shadow-md avatar avatar-medium" alt="">
             <div class="mt-4 ms-3 pt-3">
               <h5 class="mt-3 mb-1">Dr. Calvin Carlo</h5>
               <p class="text-muted mb-0">Orthopedic</p>
@@ -132,7 +132,7 @@
                       <div class="col mt-4">
                         <div class="card team border-0 rounded shadow overflow-hidden">
                           <div class="team-person position-relative overflow-hidden">
-                            <img src="${pageContext.request.contextPath}/assets/images/doctors/05.jpg" class="img-fluid" alt="">
+                            <img src="../assets/images/doctors/05.jpg" class="img-fluid" alt="">
                             <ul class="list-unstyled team-like">
                               <li><a href="#" class="btn btn-icon btn-pills btn-soft-danger"><i data-feather="heart" class="icons"></i></a></li>
                             </ul>
@@ -177,7 +177,7 @@
                       <div class="col mt-4">
                         <div class="card team border-0 rounded shadow overflow-hidden">
                           <div class="team-person position-relative overflow-hidden">
-                            <img src="${pageContext.request.contextPath}/assets/images/doctors/06.jpg" class="img-fluid" alt="">
+                            <img src="../assets/images/doctors/06.jpg" class="img-fluid" alt="">
                             <ul class="list-unstyled team-like">
                               <li><a href="#" class="btn btn-icon btn-pills btn-soft-danger"><i data-feather="heart" class="icons"></i></a></li>
                             </ul>
@@ -222,7 +222,7 @@
                       <div class="col mt-4">
                         <div class="card team border-0 rounded shadow overflow-hidden">
                           <div class="team-person position-relative overflow-hidden">
-                            <img src="${pageContext.request.contextPath}/assets/images/doctors/07.jpg" class="img-fluid" alt="">
+                            <img src="../assets/images/doctors/07.jpg" class="img-fluid" alt="">
                             <ul class="list-unstyled team-like">
                               <li><a href="#" class="btn btn-icon btn-pills btn-soft-danger"><i data-feather="heart" class="icons"></i></a></li>
                             </ul>
@@ -267,7 +267,7 @@
                       <div class="col mt-4">
                         <div class="card team border-0 rounded shadow overflow-hidden">
                           <div class="team-person position-relative overflow-hidden">
-                            <img src="${pageContext.request.contextPath}/assets/images/doctors/08.jpg" class="img-fluid" alt="">
+                            <img src="../assets/images/doctors/08.jpg" class="img-fluid" alt="">
                             <ul class="list-unstyled team-like">
                               <li><a href="#" class="btn btn-icon btn-pills btn-soft-danger"><i data-feather="heart" class="icons"></i></a></li>
                             </ul>
@@ -312,7 +312,7 @@
                       <div class="col mt-4">
                         <div class="card team border-0 rounded shadow overflow-hidden">
                           <div class="team-person position-relative overflow-hidden">
-                            <img src="${pageContext.request.contextPath}/assets/images/doctors/02.jpg" class="img-fluid" alt="">
+                            <img src="../assets/images/doctors/02.jpg" class="img-fluid" alt="">
                             <ul class="list-unstyled team-like">
                               <li><a href="#" class="btn btn-icon btn-pills btn-soft-danger"><i data-feather="heart" class="icons"></i></a></li>
                             </ul>
@@ -418,7 +418,7 @@
                         <div class="client-review-slider">
                           <div class="tiny-slide text-center">
                             <p class="text-muted h6 fw-normal fst-italic">" It seems that only fragments of the original text remain in the Lorem Ipsum texts used today. The most well-known dummy text is the 'Lorem Ipsum', which is said to have originated in the 16th century. "</p>
-                            <img src="${pageContext.request.contextPath}/assets/images/client/01.jpg" class="img-fluid avatar avatar-small rounded-circle mx-auto shadow my-3" alt="">
+                            <img src="../assets/images/client/01.jpg" class="img-fluid avatar avatar-small rounded-circle mx-auto shadow my-3" alt="">
                             <ul class="list-unstyled mb-0">
                               <li class="list-inline-item"><i class="mdi mdi-star text-warning"></i></li>
                               <li class="list-inline-item"><i class="mdi mdi-star text-warning"></i></li>
@@ -431,7 +431,7 @@
 
                           <div class="tiny-slide text-center">
                             <p class="text-muted h6 fw-normal fst-italic">" The advantage of its Latin origin and the relative meaninglessness of Lorum Ipsum is that the text does not attract attention to itself or distract the viewer's attention from the layout. "</p>
-                            <img src="${pageContext.request.contextPath}/assets/images/client/02.jpg" class="img-fluid avatar avatar-small rounded-circle mx-auto shadow my-3" alt="">
+                            <img src="../assets/images/client/02.jpg" class="img-fluid avatar avatar-small rounded-circle mx-auto shadow my-3" alt="">
                             <ul class="list-unstyled mb-0">
                               <li class="list-inline-item"><i class="mdi mdi-star text-warning"></i></li>
                               <li class="list-inline-item"><i class="mdi mdi-star text-warning"></i></li>
@@ -444,7 +444,7 @@
 
                           <div class="tiny-slide text-center">
                             <p class="text-muted h6 fw-normal fst-italic">" There is now an abundance of readable dummy texts. These are usually used when a text is required purely to fill a space. These alternatives to the classic Lorem Ipsum texts are often amusing and tell short, funny or nonsensical stories. "</p>
-                            <img src="${pageContext.request.contextPath}/assets/images/client/03.jpg" class="img-fluid avatar avatar-small rounded-circle mx-auto shadow my-3" alt="">
+                            <img src="../assets/images/client/03.jpg" class="img-fluid avatar avatar-small rounded-circle mx-auto shadow my-3" alt="">
                             <ul class="list-unstyled mb-0">
                               <li class="list-inline-item"><i class="mdi mdi-star text-warning"></i></li>
                               <li class="list-inline-item"><i class="mdi mdi-star text-warning"></i></li>
@@ -457,7 +457,7 @@
 
                           <div class="tiny-slide text-center">
                             <p class="text-muted h6 fw-normal fst-italic">" According to most sources, Lorum Ipsum can be traced back to a text composed by Cicero in 45 BC. Allegedly, a Latin scholar established the origin of the text by compiling all the instances of the unusual word 'consectetur' he could find "</p>
-                            <img src="${pageContext.request.contextPath}/assets/images/client/04.jpg" class="img-fluid avatar avatar-small rounded-circle mx-auto shadow my-3" alt="">
+                            <img src="../assets/images/client/04.jpg" class="img-fluid avatar avatar-small rounded-circle mx-auto shadow my-3" alt="">
                             <ul class="list-unstyled mb-0">
                               <li class="list-inline-item"><i class="mdi mdi-star text-warning"></i></li>
                               <li class="list-inline-item"><i class="mdi mdi-star text-warning"></i></li>
@@ -470,7 +470,7 @@
 
                           <div class="tiny-slide text-center">
                             <p class="text-muted h6 fw-normal fst-italic">" It seems that only fragments of the original text remain in the Lorem Ipsum texts used today. The most well-known dummy text is the 'Lorem Ipsum', which is said to have originated in the 16th century. "</p>
-                            <img src="${pageContext.request.contextPath}/assets/images/client/05.jpg" class="img-fluid avatar avatar-small rounded-circle mx-auto shadow my-3" alt="">
+                            <img src="../assets/images/client/05.jpg" class="img-fluid avatar avatar-small rounded-circle mx-auto shadow my-3" alt="">
                             <ul class="list-unstyled mb-0">
                               <li class="list-inline-item"><i class="mdi mdi-star text-warning"></i></li>
                               <li class="list-inline-item"><i class="mdi mdi-star text-warning"></i></li>
@@ -483,7 +483,7 @@
 
                           <div class="tiny-slide text-center">
                             <p class="text-muted h6 fw-normal fst-italic">" It seems that only fragments of the original text remain in the Lorem Ipsum texts used today. One may speculate that over the course of time certain letters were added or deleted at various positions within the text. "</p>
-                            <img src="${pageContext.request.contextPath}/assets/images/client/06.jpg" class="img-fluid avatar avatar-small rounded-circle mx-auto shadow my-3" alt="">
+                            <img src="../assets/images/client/06.jpg" class="img-fluid avatar avatar-small rounded-circle mx-auto shadow my-3" alt="">
                             <ul class="list-unstyled mb-0">
                               <li class="list-inline-item"><i class="mdi mdi-star text-warning"></i></li>
                               <li class="list-inline-item"><i class="mdi mdi-star text-warning"></i></li>
@@ -499,27 +499,27 @@
 
                     <div class="row justify-content-center">
                       <div class="col-lg-2 col-md-2 col-6 text-center py-4">
-                        <img src="${pageContext.request.contextPath}/assets/images/client/amazon.png" class="avatar avatar-client" alt="">
+                        <img src="../assets/images/client/amazon.png" class="avatar avatar-client" alt="">
                       </div><!--end col-->
 
                       <div class="col-lg-2 col-md-2 col-6 text-center py-4">
-                        <img src="${pageContext.request.contextPath}/assets/images/client/google.png" class="avatar avatar-client" alt="">
+                        <img src="../assets/images/client/google.png" class="avatar avatar-client" alt="">
                       </div><!--end col-->
 
                       <div class="col-lg-2 col-md-2 col-6 text-center py-4">
-                        <img src="${pageContext.request.contextPath}/assets/images/client/lenovo.png" class="avatar avatar-client" alt="">
+                        <img src="../assets/images/client/lenovo.png" class="avatar avatar-client" alt="">
                       </div><!--end col-->
 
                       <div class="col-lg-2 col-md-2 col-6 text-center py-4">
-                        <img src="${pageContext.request.contextPath}/assets/images/client/paypal.png" class="avatar avatar-client" alt="">
+                        <img src="../assets/images/client/paypal.png" class="avatar avatar-client" alt="">
                       </div><!--end col-->
 
                       <div class="col-lg-2 col-md-2 col-6 text-center py-4">
-                        <img src="${pageContext.request.contextPath}/assets/images/client/shopify.png" class="avatar avatar-client" alt="">
+                        <img src="../assets/images/client/shopify.png" class="avatar avatar-client" alt="">
                       </div><!--end col-->
 
                       <div class="col-lg-2 col-md-2 col-6 text-center py-4">
-                        <img src="${pageContext.request.contextPath}/assets/images/client/spotify.png" class="avatar avatar-client" alt="">
+                        <img src="../assets/images/client/spotify.png" class="avatar avatar-client" alt="">
                       </div><!--end col-->
                     </div><!--end row-->
                   </div><!--end teb pane-->
@@ -603,7 +603,7 @@
                           <div class="p-4">
                             <div class="row align-items-center">
                               <div class="col-lg-2 col-md-4">
-                                <img src="${pageContext.request.contextPath}/assets/images/doctors/01.jpg" class="avatar avatar-md-md rounded-pill shadow mx-auto d-block" alt="">
+                                <img src="../assets/images/doctors/01.jpg" class="avatar avatar-md-md rounded-pill shadow mx-auto d-block" alt="">
                               </div><!--end col-->
 
                               <div class="col-lg-5 col-md-8 text-center text-md-start mt-4 mt-sm-0">
@@ -816,8 +816,8 @@
 <div class="offcanvas offcanvas-end bg-white shadow" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
   <div class="offcanvas-header p-4 border-bottom">
     <h5 id="offcanvasRightLabel" class="mb-0">
-      <img src="${pageContext.request.contextPath}/assets/images/logo-dark.png" height="24" class="light-version" alt="">
-      <img src="${pageContext.request.contextPath}/assets/images/logo-light.png" height="24" class="dark-version" alt="">
+      <img src="../assets/images/logo-dark.png" height="24" class="light-version" alt="">
+      <img src="../assets/images/logo-light.png" height="24" class="dark-version" alt="">
     </h5>
     <button type="button" class="btn-close d-flex align-items-center text-dark" data-bs-dismiss="offcanvas" aria-label="Close"><i class="uil uil-times fs-4"></i></button>
   </div>
@@ -828,13 +828,13 @@
         <div id="style-switcher">
           <div>
             <ul class="text-center list-unstyled mb-0">
-              <li class="d-grid"><a href="javascript:void(0)" class="rtl-version t-rtl-light" onclick="setTheme('style-rtl')"><img src="${pageContext.request.contextPath}/assets/images/layouts/light-dash-rtl.png" class="img-fluid rounded-md shadow-md d-block" alt=""><span class="text-muted mt-2 d-block">RTL Version</span></a></li>
-              <li class="d-grid"><a href="javascript:void(0)" class="ltr-version t-ltr-light" onclick="setTheme('style')"><img src="${pageContext.request.contextPath}/assets/images/layouts/light-dash.png" class="img-fluid rounded-md shadow-md d-block" alt=""><span class="text-muted mt-2 d-block">LTR Version</span></a></li>
-              <li class="d-grid"><a href="javascript:void(0)" class="dark-rtl-version t-rtl-dark" onclick="setTheme('style-dark-rtl')"><img src="${pageContext.request.contextPath}/assets/images/layouts/dark-dash-rtl.png" class="img-fluid rounded-md shadow-md d-block" alt=""><span class="text-muted mt-2 d-block">RTL Version</span></a></li>
-              <li class="d-grid"><a href="javascript:void(0)" class="dark-ltr-version t-ltr-dark" onclick="setTheme('style-dark')"><img src="${pageContext.request.contextPath}/assets/images/layouts/dark-dash.png" class="img-fluid rounded-md shadow-md d-block" alt=""><span class="text-muted mt-2 d-block">LTR Version</span></a></li>
-              <li class="d-grid"><a href="javascript:void(0)" class="dark-version t-dark mt-4" onclick="setTheme('style-dark')"><img src="${pageContext.request.contextPath}/assets/images/layouts/dark-dash.png" class="img-fluid rounded-md shadow-md d-block" alt=""><span class="text-muted mt-2 d-block">Dark Version</span></a></li>
-              <li class="d-grid"><a href="javascript:void(0)" class="light-version t-light mt-4" onclick="setTheme('style')"><img src="${pageContext.request.contextPath}/assets/images/layouts/light-dash.png" class="img-fluid rounded-md shadow-md d-block" alt=""><span class="text-muted mt-2 d-block">Light Version</span></a></li>
-              <li class="d-grid"><a href="../landing/index.html" target="_blank" class="mt-4"><img src="${pageContext.request.contextPath}/assets/images/layouts/landing-light.png" class="img-fluid rounded-md shadow-md d-block" alt=""><span class="text-muted mt-2 d-block">Landing Demos</span></a></li>
+              <li class="d-grid"><a href="javascript:void(0)" class="rtl-version t-rtl-light" onclick="setTheme('style-rtl')"><img src="../assets/images/layouts/light-dash-rtl.png" class="img-fluid rounded-md shadow-md d-block" alt=""><span class="text-muted mt-2 d-block">RTL Version</span></a></li>
+              <li class="d-grid"><a href="javascript:void(0)" class="ltr-version t-ltr-light" onclick="setTheme('style')"><img src="../assets/images/layouts/light-dash.png" class="img-fluid rounded-md shadow-md d-block" alt=""><span class="text-muted mt-2 d-block">LTR Version</span></a></li>
+              <li class="d-grid"><a href="javascript:void(0)" class="dark-rtl-version t-rtl-dark" onclick="setTheme('style-dark-rtl')"><img src="../assets/images/layouts/dark-dash-rtl.png" class="img-fluid rounded-md shadow-md d-block" alt=""><span class="text-muted mt-2 d-block">RTL Version</span></a></li>
+              <li class="d-grid"><a href="javascript:void(0)" class="dark-ltr-version t-ltr-dark" onclick="setTheme('style-dark')"><img src="../assets/images/layouts/dark-dash.png" class="img-fluid rounded-md shadow-md d-block" alt=""><span class="text-muted mt-2 d-block">LTR Version</span></a></li>
+              <li class="d-grid"><a href="javascript:void(0)" class="dark-version t-dark mt-4" onclick="setTheme('style-dark')"><img src="../assets/images/layouts/dark-dash.png" class="img-fluid rounded-md shadow-md d-block" alt=""><span class="text-muted mt-2 d-block">Dark Version</span></a></li>
+              <li class="d-grid"><a href="javascript:void(0)" class="light-version t-light mt-4" onclick="setTheme('style')"><img src="../assets/images/layouts/light-dash.png" class="img-fluid rounded-md shadow-md d-block" alt=""><span class="text-muted mt-2 d-block">Light Version</span></a></li>
+              <li class="d-grid"><a href="../landing/index.html" target="_blank" class="mt-4"><img src="../assets/images/layouts/landing-light.png" class="img-fluid rounded-md shadow-md d-block" alt=""><span class="text-muted mt-2 d-block">Landing Demos</span></a></li>
             </ul>
           </div>
         </div>
@@ -858,16 +858,16 @@
 <!-- Offcanvas End -->
 
 <!-- javascript -->
-<script src="${pageContext.request.contextPath}/assets/js/bootstrap.bundle.min.js"></script>
+<script src="../assets/js/bootstrap.bundle.min.js"></script>
 <!-- simplebar -->
-<script src="${pageContext.request.contextPath}/assets/js/simplebar.min.js"></script>
+<script src="../assets/js/simplebar.min.js"></script>
 <!-- SLIDER -->
-<script src="${pageContext.request.contextPath}/assets/js/tiny-slider.js"></script>
-<script src="${pageContext.request.contextPath}/assets/js/tiny-slider-init.js"></script>
+<script src="../assets/js/tiny-slider.js"></script>
+<script src="../assets/js/tiny-slider-init.js"></script>
 <!-- Icons -->
-<script src="${pageContext.request.contextPath}/assets/js/feather.min.js"></script>
+<script src="../assets/js/feather.min.js"></script>
 <!-- Main Js -->
-<script src="${pageContext.request.contextPath}/assets/js/app.js"></script>
+<script src="../assets/js/app.js"></script>
 
 </body>
 
