@@ -17,9 +17,6 @@ public class Doctor {
 
     public Doctor() {
     }
-    public Doctor(int id) {
-        this.id = id;
-    }
 
     public Doctor(int id, Account account, Specialist specialist) {
         this.id = id;
