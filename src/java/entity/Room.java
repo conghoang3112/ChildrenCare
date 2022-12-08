@@ -13,15 +13,13 @@ public class Room {
 
     private int id;
     private String roomMeet;
-    private Doctor doctor;
 
     public Room() {
     }
 
-    public Room(int id, String roomMeet, Doctor doctor) {
+    public Room(int id, String roomMeet) {
         this.id = id;
         this.roomMeet = roomMeet;
-        this.doctor = doctor;
     }
 
     public int getId() {
@@ -39,13 +37,4 @@ public class Room {
     public void setRoomMeet(String roomMeet) {
         this.roomMeet = roomMeet;
     }
-
-    public Doctor getDoctor() {
-        return doctor;
-    }
-
-    public void setDoctor(Doctor doctor) {
-        this.doctor = doctor;
-    }
-
 }

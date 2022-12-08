@@ -14,7 +14,6 @@ import java.util.Date;
 public class DoctorProfile {
 
     private int id;
-    private Doctor doctor;
     private String firstName;
     private String lastName;
     private Date dob;
@@ -25,9 +24,8 @@ public class DoctorProfile {
     public DoctorProfile() {
     }
 
-    public DoctorProfile(int id, Doctor doctor, String firstName, String lastName, Date dob, String avatar, boolean sex, String addressHospital) {
+    public DoctorProfile(int id, String firstName, String lastName, Date dob, String avatar, boolean sex, String addressHospital) {
         this.id = id;
-        this.doctor = doctor;
         this.firstName = firstName;
         this.lastName = lastName;
         this.dob = dob;
@@ -36,20 +34,14 @@ public class DoctorProfile {
         this.addressHospital = addressHospital;
     }
 
+   
+
     public int getId() {
         return id;
     }
 
     public void setId(int id) {
         this.id = id;
-    }
-
-    public Doctor getDoctor() {
-        return doctor;
-    }
-
-    public void setDoctor(Doctor doctor) {
-        this.doctor = doctor;
     }
 
     public String getFirstName() {
