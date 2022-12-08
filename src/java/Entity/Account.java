@@ -20,6 +20,12 @@ public class Account {
     public Account() {
     }
 
+    public Account(int id, String email) {
+        this.id = id;
+        this.email = email;
+        
+    }
+
     public Account(int id, String username, String password, String email, Role role) {
         this.id = id;
         this.username = username;

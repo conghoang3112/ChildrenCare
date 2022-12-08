@@ -38,4 +38,9 @@ public class TimeSlot {
         this.slotTime = slotTime;
     }
 
+    @Override
+    public String toString() {
+        return "TimeSlot{" + "id=" + id + ", slotTime=" + slotTime + '}';
+    }
+
 }

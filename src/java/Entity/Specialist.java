@@ -17,6 +17,10 @@ public class Specialist {
     public Specialist() {
     }
 
+    public Specialist(int id) {
+        this.id = id;
+    }
+
     public Specialist(int id, String name) {
         this.id = id;
         this.name = name;
@@ -36,6 +40,11 @@ public class Specialist {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    @Override
+    public String toString() {
+        return "Specialist{" + "id=" + id + ", name=" + name + '}';
     }
 
 
