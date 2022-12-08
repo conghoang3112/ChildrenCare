@@ -31,7 +31,7 @@
                     <form method="post" action="loginController">
 
                         <div class="form-group">
-                            <input name="user name" class="form-control" id="inputEmail" placeholder="User name">
+                            <input name="username" class="form-control" id="inputEmail" placeholder="User name">
                         </div>
                         <div class="form-group">
                             <input name="password" class="form-control" id="inputPassword" placeholder="Password">

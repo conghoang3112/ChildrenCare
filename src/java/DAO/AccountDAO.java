@@ -35,10 +35,15 @@ public class AccountDAO {
                         rs.getString(2),
                         rs.getString(3),
                         rs.getString(4),
-                        rs.getInt(7));
+                        rs.getInt(5));
             }
         } catch (Exception e) {
         }
         return null;
+    }
+    public static void main(String[] args) {
+        AccountDAO dao = new AccountDAO();
+        Account a = dao.checkLogin("admin1", "123");
+        System.out.println(a.toString());
     }
 }
