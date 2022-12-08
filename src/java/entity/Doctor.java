@@ -14,14 +14,18 @@ public class Doctor {
     private int id;
     private Account account;
     private Specialist specialist;
+    private DoctorProfile doctorProfile;
+    private Room room;
 
     public Doctor() {
     }
 
-    public Doctor(int id, Account account, Specialist specialist) {
+    public Doctor(int id, Account account, Specialist specialist, DoctorProfile doctorProfile, Room room) {
         this.id = id;
         this.account = account;
         this.specialist = specialist;
+        this.doctorProfile = doctorProfile;
+        this.room = room;
     }
 
     public int getId() {
@@ -46,6 +50,22 @@ public class Doctor {
 
     public void setSpecialist(Specialist specialist) {
         this.specialist = specialist;
+    }
+
+    public DoctorProfile getDoctorProfile() {
+        return doctorProfile;
+    }
+
+    public void setDoctorProfile(DoctorProfile doctorProfile) {
+        this.doctorProfile = doctorProfile;
+    }
+
+    public Room getRoom() {
+        return room;
+    }
+
+    public void setRoom(Room room) {
+        this.room = room;
     }
 
 }

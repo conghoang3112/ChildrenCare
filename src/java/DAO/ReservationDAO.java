@@ -46,16 +46,22 @@ public class ReservationDAO extends DBContext {
             PreparedStatement ps = getConnection().prepareStatement(sql);
             ResultSet rs = ps.executeQuery();
             while (rs.next()) {
+                Doctor doctor = new Doctor();
+                doctor.setId(rs.getInt("doctor_id"));
+                User user = new User();
+                user.setId(rs.getInt("user_id"));
+                Patient patient = new Patient();
+                patient.setId(rs.getInt("patient_id"));
                 reservations.add(new Reservation(
                         rs.getInt("reservation_id"),
                         new TimeSlot(rs.getInt("time_slot_id"), rs.getString("slot_time")),
-                        new Doctor(rs.getInt("doctor_id")),
+                        doctor,
                         rs.getDate(4),
                         rs.getString(5),
                         rs.getString(6),
                         rs.getString(7),
-                        new User(rs.getInt(8)),
-                        new Patient(rs.getInt(9))));
+                        user,
+                        patient));
 
             }
         } catch (Exception e) {
